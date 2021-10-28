@@ -2,7 +2,7 @@
 --------
 To test and use various Python libraries
 
-This interactive map populates real-time markers on an interactive map which gives information about volcanic craters - such as their name, geographical location, status, type and activity. Markers are color coordinated depending on their elevation level. An optional overlay will show the population level for that area.
+HTTP request made over realtor website containing list of properties. Python used to get this HTML content, which is parsed into a tree of objects using BeautifulSoup (method of Bs4 library). Each property's attributes are stored in a list of dictionaries, which is exported using Pandas and stored in a CSV file.
 --------
  - Bs4 imports BeautifulSoup - Creates a parse tree for HTML/XML documents; used in conjunction with https get request over web page 
  - Pandas - data processing library to create table out of list of dictionaries containing property information, which is then used to export to CSV
